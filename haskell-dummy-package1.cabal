@@ -8,6 +8,10 @@ build-type:          Simple
 extra-source-files:  ChangeLog.md
 cabal-version:       >=1.10
 
+source-repository head
+  type:                git
+  location:            git://github.com/jmitchell/haskell-dummy-package1.git
+
 library
   exposed-modules:     DummyPkg
   build-depends:       base >=4.9 && <4.10
